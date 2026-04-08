@@ -3,66 +3,122 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Acme Insurance - Claims</title>
+    <title>Acme Insurance - Home</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+    <!-- Navigation -->
     <nav>
         <div class="logo">🛡️ Acme Insurance</div>
         <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="plans.html">Plans & Coverage</a></li>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="plans.html">Plans &amp; Coverage</a></li>
             <li><a href="claims.html">Claims</a></li>
             <li><a href="faq.html">FAQ</a></li>
             <li><a href="contact.html">Contact Us</a></li>
         </ul>
     </nav>
 
-    <section class="content">
-        <h1>File & Track Claims</h1>
+    <!-- Hero Section -->
+    <header class="hero">
+        <h1>Protecting What Matters Most</h1>
+        <p>Auto, Home, and Life insurance you can count on. Trusted by over 500,000 customers nationwide.</p>
+        <a href="plans.html" class="btn">View Our Plans</a>
+        <a href="contact.html" class="btn btn-secondary">Talk to Ava - AI Assistant</a>
+    </header>
 
-        <h2>How to File a Claim</h2>
-        <div class="steps">
-            <div class="step">
-                <h3>Step 1: Report the Incident</h3>
-                <p>Chat with our AI assistant Ava, call us at 1-800-ACME-INS, or fill out the online form. Report within 48 hours of the incident for fastest processing.</p>
-            </div>
-            <div class="step">
-                <h3>Step 2: Provide Documentation</h3>
-                <p>Upload photos of damage, police reports (if applicable), and any receipts for related expenses. You can upload documents via your online account or email them to claims@acmeinsurance.demo.</p>
-            </div>
-            <div class="step">
-                <h3>Step 3: Adjuster Assignment</h3>
-                <p>A licensed claims adjuster will be assigned to your case within 24 hours. They will contact you to schedule an inspection if needed.</p>
-            </div>
-            <div class="step">
-                <h3>Step 4: Resolution & Payment</h3>
-                <p>Most claims are resolved within 5-10 business days. Payment is issued via direct deposit or check, minus your applicable deductible.</p>
-            </div>
+    <!-- Features Section -->
+    <section class="features">
+        <div class="card">
+            <div class="card-icon">🚗</div>
+            <h3>Auto Insurance</h3>
+            <p>Comprehensive auto coverage starting at just $50/month. Collision, liability, roadside assistance, and more.</p>
+            <a href="plans.html">Learn More →</a>
         </div>
-
-        <h2>Claim Status Definitions</h2>
-        <table>
-            <tr><th>Status</th><th>Meaning</th></tr>
-            <tr><td><strong>Submitted</strong></td><td>Your claim has been received and is in queue for review.</td></tr>
-            <tr><td><strong>Under Review</strong></td><td>An adjuster is evaluating your claim and documentation.</td></tr>
-            <tr><td><strong>Inspection Scheduled</strong></td><td>An in-person or virtual inspection has been arranged.</td></tr>
-            <tr><td><strong>Approved</strong></td><td>Your claim has been approved. Payment is being processed.</td></tr>
-            <tr><td><strong>Denied</strong></td><td>Your claim was not covered. You may appeal within 30 days.</td></tr>
-            <tr><td><strong>Closed</strong></td><td>Claim has been fully resolved and payment issued.</td></tr>
-        </table>
-
-        <h2>Important Claim Guidelines</h2>
-        <ul>
-            <li>Claims must be filed within <strong>48 hours</strong> of the incident.</li>
-            <li>Fraudulent claims will result in policy cancellation and legal action.</li>
-            <li>You may appeal a denied claim within <strong>30 days</strong> by contacting your adjuster.</li>
-            <li>Emergency repairs (e.g., broken windows, water damage) can be done immediately - keep all receipts for reimbursement.</li>
-        </ul>
+        <div class="card">
+            <div class="card-icon">🏠</div>
+            <h3>Home Insurance</h3>
+            <p>Protect your home from fire, theft, and natural disasters. Plans starting at $120/month.</p>
+            <a href="plans.html">Learn More →</a>
+        </div>
+        <div class="card">
+            <div class="card-icon">💬</div>
+            <h3>24/7 AI Support</h3>
+            <p>Chat with Ava, our AI-powered assistant, anytime for instant help with your policy, claims, or billing.</p>
+            <a href="contact.html">Chat Now →</a>
+        </div>
     </section>
 
+    <!-- Why Choose Us Section -->
+    <section class="why-us">
+        <h2>Why Choose Acme Insurance?</h2>
+        <div class="why-us-grid">
+            <div class="why-item">
+                <h4>⚡ Fast Claims Processing</h4>
+                <p>Most claims are resolved within 5-10 business days. Our adjusters are assigned within 24 hours of filing.</p>
+            </div>
+            <div class="why-item">
+                <h4>💰 Bundle &amp; Save 15%</h4>
+                <p>Combine any auto and home plan to receive a 15% discount on your total monthly premium.</p>
+            </div>
+            <div class="why-item">
+                <h4>📱 Manage Online</h4>
+                <p>View your policy, file claims, make payments, and chat with support — all from your online account.</p>
+            </div>
+            <div class="why-item">
+                <h4>🏆 A+ Rated</h4>
+                <p>Rated A+ by the Better Business Bureau with a 4.8/5 customer satisfaction score.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <h2>What Our Customers Say</h2>
+        <div class="testimonial-grid">
+            <div class="testimonial">
+                <p>"Filed a claim after a fender bender and had a check in my hand within a week. Incredible service!"</p>
+                <strong>— Sarah M., Austin, TX</strong>
+            </div>
+            <div class="testimonial">
+                <p>"The bundle discount saved me over $300 a year. Switching to Acme was the best decision."</p>
+                <strong>— James R., Denver, CO</strong>
+            </div>
+            <div class="testimonial">
+                <p>"Ava, the AI assistant, helped me understand my coverage options at 11 PM on a Sunday. Amazing!"</p>
+                <strong>— Priya K., San Jose, CA</strong>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
     <footer>
-        <p>&copy; 2026 Acme Insurance. This is a demo website for testing purposes.</p>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Acme Insurance</h4>
+                <p>Protecting families and assets since 1985.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="plans.html">Plans &amp; Coverage</a></li>
+                    <li><a href="claims.html">File a Claim</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Contact</h4>
+                <p>📞 1-800-ACME-INS</p>
+                <p>📧 support@acmeinsurance.demo</p>
+                <p>🏢 1234 Coverage Lane, Springfield, IL 62701</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Acme Insurance Co. All rights reserved. This is a demo website for testing purposes only.</p>
+        </div>
     </footer>
+
 </body>
 </html>
